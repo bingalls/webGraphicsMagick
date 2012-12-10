@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This GraphicsMagick script converts gif to (nonanimated) png, as GM cannot compress gif -->
+<!-- Copyright 2012 Bruce Ingalls LGPL License http://www.gnu.org/licenses/lgpl.html -->
+<image>
+  <read filename="%[file].gif" />
+  <print output=
+    "Image converted from %[file].gif to %[file].png.\n" />
+  <write filename="%[file].png" />
+</image>
